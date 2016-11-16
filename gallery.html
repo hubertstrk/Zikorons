@@ -4,7 +4,7 @@
 http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
 
-Name       : GoodLife 
+Name       : GoodLife
 Description: A two-column, fixed-width design with dark colour scheme.
 Version    : 1.0
 Released   : 20121013 -->
@@ -40,16 +40,16 @@ Released   : 20121013 -->
 <link rel="icon" type="image/png"  href="favicon.ico" />
 
 <!-- Core CSS file -->
-<link rel="stylesheet" href="photoswipe/dist/photoswipe.css"> 
+<link rel="stylesheet" href="photoswipe/dist/photoswipe.css">
 
 <!-- Skin CSS file (optional)
      In folder of skin CSS file there are also:
-     - .png and .svg icons sprite, 
+     - .png and .svg icons sprite,
      - preloader.gif (for browsers that do not support CSS animations) -->
-<link rel="stylesheet" href="photoswipe/dist/default-skin/default-skin.css"> 
+<link rel="stylesheet" href="photoswipe/dist/default-skin/default-skin.css">
 
 <!-- Core JS file -->
-<script src="photoswipe/dist/photoswipe.min.js"></script> 
+<script src="photoswipe/dist/photoswipe.min.js"></script>
 
 <!-- UI JS file -->
 <script src="photoswipe/dist/photoswipe-ui-default.min.js"></script>
@@ -61,20 +61,19 @@ Released   : 20121013 -->
 </script>
 
 </head>
-
 <body>
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
-    <!-- Background of PhotoSwipe. 
+    <!-- Background of PhotoSwipe.
          It's a separate element, as animating opacity is faster than rgba(). -->
     <div class="pswp__bg"></div>
 
     <!-- Slides wrapper with overflow:hidden. -->
     <div class="pswp__scroll-wrap">
 
-        <!-- Container that holds slides. 
+        <!-- Container that holds slides.
             PhotoSwipe keeps only 3 of them in DOM to save memory.
             Don't modify these 3 pswp__item elements, data is added later on. -->
         <div class="pswp__container">
@@ -112,7 +111,7 @@ Released   : 20121013 -->
             </div>
 
             <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div> 
+                <div class="pswp__share-tooltip"></div>
             </div>
 
             <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
@@ -138,7 +137,7 @@ Released   : 20121013 -->
 				<li class="mobile-navigation-button"><a href="contact.html" title="Kontakt">Kontakt</a></li>
 			</ul>
 		</div>
-		
+
 		<div id="header-logo">
 			<div id="header-logo-text">
 				<a href="index.html"><h1>Ensemble Zikoron</h1></a>
@@ -154,12 +153,12 @@ Released   : 20121013 -->
 				<h3><span id="klezmer">Klezmer-</span><span id="kammer">Kammer-</span><span id="musik">Musik</span></h3>
 			</div>
 		</div>
-		
+
 		<div class="languageSelection">
 			<a href="gallery.html" onclick="javascript:SetLanguage('de')";>De</a> |
 			<a href="en/gallery.html" onclick="javascript:SetLanguage('en')";>En</a>
 		</div>
-	
+
 	</div>
 </div>
 
@@ -169,8 +168,8 @@ Released   : 20121013 -->
 			<!--<h2>Aktuelles</h2>
 			<p class="hidden-on-mobile">&nbsp;</p>
 			<ul class="style2">
-				
-			</ul>	
+
+			</ul>
 			</br>-->
 			<h2 id="archiv">Archiv</h2>
 			</br>
@@ -181,17 +180,17 @@ Released   : 20121013 -->
 					<a href="http://www.seidlvilla.de/">Seidlvilla</a>, Nikolaiplatz 1b, M&uuml;nchen.
 				</li>
 				<li class="">
-					Konzert am 16. Mai 2015, 19 Uhr im 
+					Konzert am 16. Mai 2015, 19 Uhr im
 					<a href="http://www.giesinger-bahnhof.de/">Kulturzentrum Giesinger Bahnhof</a>, Giesinger Bahnhofplatz 1, M&uuml;nchen.
 				</li>
 				<!--li>
-					Konzert am 5. Dezember 2014, 19 Uhr, 
-					Gro&szlig;e Aula der Sabel Schulen Schwanthalerstr. 51-53, 80336 München. 
+					Konzert am 5. Dezember 2014, 19 Uhr,
+					Gro&szlig;e Aula der Sabel Schulen Schwanthalerstr. 51-53, 80336 München.
 					Eine Veranstaltung des Freundeskreises der Sabel Schulen.
 					Eintritt: frei
-				</li-->	
+				</li-->
 				<li>
-					"Friling, ouf dayne fligl bloye" - Konzert am 2. Mai 2014 um 20 Uhr im 
+					"Friling, ouf dayne fligl bloye" - Konzert am 2. Mai 2014 um 20 Uhr im
 					<a href="http://www.ars-musica-muenchen.de/">Stemmerhof</a>, Plinganserstr. 6, M&uuml;nchen-Sendling
 				</li>
 				<li><a href="http://www.ev-andreasgemeinde.de/nachlese_maitanz2013">
@@ -199,17 +198,17 @@ Released   : 20121013 -->
 				</li>
 				<li><a href="http://www.wochenanzeiger-muenchen.de/redaktion/lokalredaktion-muenchen/kunst-und-kultur/Unersch%C3%B6pfliche+Gef%C3%BChlswelten_52218.html">
 					"Unersch&ouml;pfliche Gef&uuml;hlswelten"</a> - Konzert des Ensemble Zikoron am Samstag, 12. Januar 2013, um 19 Uhr im Pfarrsaal Hl. Kreuz Forstenried
-				</li>	
+				</li>
 			</ul>
 			</div>
-			
+
 			<script>
 			$( "#archiv" ).click(function() {
 			$( "#archivecontent" ).slideToggle( "slow" );
 			});
 			</script>
 		</div>
-		
+
 		<!-- Gallery for screen -->
 		<div id="fbox2" class="hidden-on-mobile">
 			<a href="javascript:ShowGalleryImage(0);" rel="caption" title="Ensemble Zikoron &copy Uschi Koethe | Photography"><img src="images/gallery/thumb/ensemble-zikoron-a.jpg" alt="Ensemble Zikoron" width="304px"/></a>
@@ -222,7 +221,7 @@ Released   : 20121013 -->
 			<a href="javascript:ShowGalleryImage(7);" rel="caption" title="Hubert St&auml;rk &copy Uschi Koethe | Photography"><img src="images/gallery/thumb/hubert.jpg" alt="Ensemble Zikoron - Hubert St&auml;rk" width="139px"/></a>
 			<a href="javascript:ShowGalleryImage(8);" rel="caption" title="Heiko Schaaf &copy Uschi Koethe | Photography"><img src="images/gallery/thumb/heiko.jpg" alt="Ensemble Zikoron - Heiko Schaaf" width="210px"/></a>
 		</div>
-		
+
 		<!-- Gallery for mobile -->
 		<div id="fbox2" class="hidden-on-screen">
 			<a href="javascript:ShowGalleryImage(0)" rel="caption" title="Ensemble Zikoron &copy Uschi Koethe | Photography"><img src="images/gallery/thumb/ensemble-zikoron-a.jpg" alt="Ensemble Zikoron" width="49%"/></a>
@@ -233,8 +232,8 @@ Released   : 20121013 -->
 			<a href="javascript:ShowGalleryImage(6)" rel="caption" title="Annette Schmidt &copy Uschi Koethe | Photography"><img src="images/gallery/thumb/anette.jpg" alt="Ensemble Zikoron - Annette Schmidt" width="53%" /></a>
 			<a href="javascript:ShowGalleryImage(8)" rel="caption" title="Heiko Schaaf &copy Uschi Koethe | Photography"><img src="images/gallery/thumb/heiko.jpg" alt="Ensemble Zikoron - Heiko Schaaf" width="44%" /></a>
 			<a href="javascript:ShowGalleryImage(5)" rel="caption" title="Corinna Schr&ouml;der &copy Uschi Koethe | Photography"><img src="images/gallery/thumb/corinna.jpg" alt="Ensemble Zikoron - Corinna Schröder" width="35%" /></a>
-			<a href="javascript:ShowGalleryImage(7)" rel="caption" title="Hubert St&auml;rk &copy Uschi Koethe | Photography"><img src="images/gallery/thumb/hubert.jpg" alt="Ensemble Zikoron - Hubert Stärk" width="35%" /></a>	
-		</div>	
+			<a href="javascript:ShowGalleryImage(7)" rel="caption" title="Hubert St&auml;rk &copy Uschi Koethe | Photography"><img src="images/gallery/thumb/hubert.jpg" alt="Ensemble Zikoron - Hubert Stärk" width="35%" /></a>
+		</div>
 	</div>
 </div>
 <div id="info-wrapper">
@@ -260,7 +259,7 @@ Released   : 20121013 -->
 					<p>Unsere <a href="data/Kontaktkarte 4-1.pdf">Kontaktkarte</a> zum Ausdrucken, Verteilen und Weiterschicken.</p>
 					<!--p class="posted"> </p-->
 				</li>
-			</ul>			
+			</ul>
 		</div>
 		<div id="info-content">
 			<div>
@@ -288,16 +287,15 @@ Released   : 20121013 -->
 			<img src="images/social/googleplus_transparent.png" title="Follow us on Google+" alt="googleplus" />
 		</a>
 	</div>
-	
+
 	<div id="footer-copyright">
-		<p>Copyright &copy; 2015 <a href="index.html" title="ensemble zikoron">Ensemble Zikoron</a>. All rights reserved | 
+		<p>Copyright &copy; 2015 <a href="index.html" title="ensemble zikoron">Ensemble Zikoron</a>. All rights reserved |
 		<span class="hidden-on-mobile"> Design by <a href="http://www.freecsstemplates.org/"
 				rel="nofollow">FCT</a> | </span>
 			<a href="contact.html">Kontakt</a> |
 			<a href="impressum.html">Impressum</a>
 		</p>
 	</div>
-</div>	
+</div>
 </body>
 </html>
-
