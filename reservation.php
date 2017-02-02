@@ -8,13 +8,13 @@ $lastname = $_REQUEST['lastname'];
 $phone = $_REQUEST['phone'];
 
 // set subject
-$subject =  'Reservierung Seidlvilla - ' . $firstname . ' ' . $lastname;
+$subject =  'Reservierung Forstenried 01.04.2017 - ' . $firstname . ' ' . $lastname;
 
 // target address
 $to = 'Zikorons@gmail.com'; //destination email
 
 // construct email body
-$message1 = '<h2>Reservierung Seidlvilla</h2>';
+$message1 = '<h2>Reservierung Forstenried 01.04.2017</h2>';
 $message2 = '<p>Name: ' . $firstname . " " . $lastname . '</p>';
 $message3 = '<p>Mail: ' . $mail . '</p>';
 $message4 = '<p>Telefon: ' . $phone . '</p>';
