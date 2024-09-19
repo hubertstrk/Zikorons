@@ -1,0 +1,408 @@
+@media screen and (max-width: 768px) {
+	
+	body {
+		margin: 0;
+		padding: 0;
+		font-family: 'Abel', sans-serif;
+		font-size: 16px;
+	}
+	
+	h1 {
+		margin: 0;
+		padding: 0;
+		font-family: 'Nothing You Could Do', cursive;
+		font-weight: bold;
+		color: #222222;
+	}
+
+	h2 {
+		margin: 0;
+		font-family: 'Abel', sans-serif;
+		font-weight: 200;
+		padding: 5px 0px 10px 0px;
+		color: #C16B24;
+	}
+
+	h3 {
+		margin: 0;
+		padding: 0;
+		font-family: 'Abel', sans-serif;
+		color: #31849B;
+		font-weight: lighter;
+	}
+	
+	h4 {
+		margin: 0;
+		padding: 0;
+		font-family: 'Abel', sans-serif;
+		font-size: 13px;
+	}
+	
+	a {
+		color: #5C5539;
+		text-decoration: underline;
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	a img {
+		border: none;
+	}
+	
+	p, ol, ul, a {
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	ul.style2 {
+		margin: 0px;
+		padding: 0px;
+		list-style: none;
+		list-style-image: none;
+		list-style-position: outside;
+	}
+	
+	/* Header */
+
+	#header-wrapper {
+		overflow: hidden;
+		background: #C4BC96;
+	}
+
+	#header-title {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0px 0px;
+		
+		background-image: url('../images/texture/black_stripes_small.jpg');
+		background-repeat: repeat;
+		background-size: cover;
+	}
+
+	/* LOGO */
+	#header-logo {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	#header-logo h3 {
+		font-size: 1.2em;
+		text-align: center;
+	}
+
+	#header-logo-text{
+		float: left;
+		width: 80%;
+	}
+	
+	#header-logo-text a{
+		text-decoration: none;
+	}
+	
+	#header-logo-text h1{
+		color: #C16B24;
+		font-size: 1.4em;
+		padding: 10px 0px 0px 20px;
+	}
+	
+	#header-logo-menu{
+		float: right;
+	}
+	
+	#header-logo-menu a{
+		text-decoration: none;
+	}
+	
+	#header-logo-menu h1{
+		font-size: 0.9em;
+		color: black;
+		text-transform: uppercase;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 100;
+		padding: 5px 5px 0px 0px;
+		letter-spacing: 1px;
+	}
+	
+	#header-logo-menu img{
+		height: 30px;
+		width: 30px;
+	}
+	
+	#header-logo-subtext{
+		padding: 0px 0px 10px 30px;
+		float: left;
+	}
+	
+	/*mobile-navigation-button*/
+	.header-menu {
+		width: 100%;
+		padding: 0px 0px 0px 0px;
+		display: none;
+	}
+	
+	.header-menu ul {
+		list-style: none;
+		width: 100%;
+		padding: 20px 0px 20px 0px;
+		font-size: 0.8em;
+	}
+	
+	.header-menu li {
+		text-align: center;
+		padding: 10px;
+		letter-spacing: 1px;
+	}
+	
+	.header-menu li:active {
+		background-color:black;
+		background: transparent;
+	}
+	
+	.header-menu li a {
+		display: block;
+		padding: 8px 15px;
+		text-decoration: none;
+		color: white; 
+		text-transform: uppercase;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 100;
+		color: white;
+	}
+	.header-menu li a:active {
+		background-color:black;
+		background: transparent;
+		color: burlywood;
+	}
+	
+	
+	.header-menu li a:first {
+		border-left: 0px;
+	}
+	
+	#mobile-ensemble-picture{
+		/*background: #C4BC96;*/
+		background: #EFE0B8;
+	}
+	
+	#footer-wrapper{
+		background: #1B2024;
+		padding: 0px;
+	}
+	
+	#page-wrapper{
+		background: #EFE0B8;
+		padding: 20px 20px 20px 20px;
+	}
+	
+	/* Footer */
+	#footer-wrapper{
+		background-color: #1B2024;
+	}
+	
+	#footer-copyright {
+		height: 55px;
+		margin: 0 auto;
+		padding: 0px 0px 0px 0px;
+		font-family: 'Abel', sans-serif;
+	}
+
+	#footer-copyright p {
+		margin: 0;
+		letter-spacing: 1px;
+		line-height: normal;
+		font-size: 14px;
+		text-transform: uppercase;
+		text-align: center;
+		color: rgb(187, 164, 71);
+	}
+
+	#footer-copyright a {
+		color: rgb(187, 164, 71);
+	}
+	
+	#footer-social{
+		width: 120px ;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 15px 0px 0px 0px;
+	}
+	
+	#footer-social a{
+		text-decoration: none;
+	}
+	
+	#footer-social img{
+		height: 35px;
+		width: 35px;
+	}
+
+	.hidden-on-mobile{
+		display: none;
+	}
+
+	.continious-heading{
+		margin-top: 15px;
+	}
+	
+	#fbox2 #impressum  h2, #fbox2 #datenschutz  h2{
+		margin-top: 20px;
+	}
+	
+	#fbox2 .header{
+		margin-top: 10px;
+	}
+	
+	#introText{
+		/* if news contains text margin-top should be 15px*/
+		margin-top: 0px;
+	}
+	
+	/* contact form */
+	input, textarea {
+		padding: 8px;
+		border: 1px solid #E5E5E5;
+		color: #999999;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+		-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+		-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;	
+		font-family: 'Abel', sans-serif;	
+		font-size: 16px;
+		width: 98%;
+		overflow: hidden;
+		-webkit-box-sizing: border-box;
+	}
+	
+	textarea { 
+		height: 200px; 
+		line-height: 18px;
+	}
+
+	input:hover, textarea:hover,
+	input:focus, textarea:focus {
+		border: 1px solid #C9C9C9;
+		box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+		-moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+		-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;	
+	}
+
+	.form{
+		margin-top: 20px;
+	}
+	.form label {
+		margin-left: 0px;
+		color: #999999;
+	}
+	.form p{
+		margin-top: 7px;
+	}
+	
+	#footer-navigation{
+		padding: 0px 5px 0px 10px;
+		background-color: #DEE3E5;
+	}
+	
+	#resultImage{
+		visibility: hidden;
+	}
+	
+	.button-mobile{
+		display: inline-block;
+		margin-top: 10px;
+		padding: 7px 15px;
+		background: #1B2024;
+		border-radius: 5px;
+	}
+	
+	.button-mobile a {
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-family: 'Oswald', sans-serif;
+		font-weight: 300;
+		font-size: 16px;
+		color: #FFFFFF;
+	}
+
+	
+	
+	#klezmer {
+		font-size: 17px;
+		letter-spacing: 0px;
+	}
+	
+	.languageSelection{
+		display: block;
+		float: right;
+		margin-right: 12px;
+		font-size: 10pt;
+		padding: 6px 0px 0px 0px;
+	}
+	
+	.languageSelection a{
+		color: black;
+	}
+	
+	#musik {
+		font-size: 17px;
+		letter-spacing: 0px;
+	}
+	
+	#kammer {
+		font-size: 15px;
+		letter-spacing: 0px;
+	}
+	
+	/* CITE */
+
+	#cite{
+		padding: 0px 0px 40px 0px;
+	}
+
+	#cite p{
+		text-align: center;
+	}
+
+	#cite p:first-child {
+		font-size: 1.6em;
+		color: #C16B24;
+		margin-bottom: -12px;
+		text-shadow: 4px 4px 4px #aaa;
+	}
+
+	#cite p:last-child {
+		font-family: 'Source Sans Pro', cursive;
+		font-size: 0.9em;
+		color: #31849B;
+		font-style: oblique;
+		letter-spacing: 1px;
+	}
+	
+	ul.style2 li {
+		padding: 9px 0px 9px 0px;
+		border-top: 1px dashed #E6E7DC;
+		border-top-color: #C4BC96;
+	}
+	
+	ul.style2 .first {
+		padding-top: 0px;
+		border-top: none;
+	}
+	
+	ul.style2 .last {
+		border-bottom: 1px dashed #E6E7DC;
+		border-bottom-color: #C4BC96;
+	}
+	
+	#info-wrapper {
+		overflow: hidden;
+		background: #C5BBA0;
+	}
+	
+	#info-content {
+		padding: 10px 10px 20px 20px;
+	}
+	
+	
+}
