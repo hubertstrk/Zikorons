@@ -425,6 +425,10 @@ Released for free under a Creative Commons Attribution 2.5 License
 	.hidden {
 		display: none;
 	}
+
+	.archive-title {
+		cursor: pointer;
+	}
 	
 	/* CITE */
 
